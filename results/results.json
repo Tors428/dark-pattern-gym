@@ -1,0 +1,2011 @@
+{
+  "agent": "keyword-baseline",
+  "by_ui": {
+    "clean": {
+      "summary": {
+        "episodes": 20,
+        "success_rate": 1,
+        "avg_steps": 4,
+        "avg_trap_hits": 0,
+        "avg_reward": 0.84,
+        "failure_rate": 0,
+        "timeout_rate": 0
+      },
+      "episodes": [
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 4,
+          "trap_hits": 0,
+          "total_reward": 0.84,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Subscription",
+              "chosen_id": "open_subscription",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 0,
+              "chosen_label": "Cancel subscription",
+              "chosen_id": "cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 0,
+              "chosen_label": "Yes, cancel my subscription",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        }
+      ]
+    },
+    "dark": {
+      "summary": {
+        "episodes": 20,
+        "success_rate": 1,
+        "avg_steps": 5,
+        "avg_trap_hits": 0,
+        "avg_reward": 0.8,
+        "failure_rate": 0,
+        "timeout_rate": 0
+      },
+      "episodes": [
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        },
+        {
+          "success": true,
+          "terminal": "success",
+          "steps": 5,
+          "trap_hits": 0,
+          "total_reward": 0.8,
+          "trajectory": [
+            {
+              "screen_id": "home",
+              "chosen_index": 0,
+              "chosen_label": "Settings",
+              "chosen_id": "open_settings",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "settings"
+            },
+            {
+              "screen_id": "settings",
+              "chosen_index": 0,
+              "chosen_label": "Account & Billing",
+              "chosen_id": "account",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "subscription"
+            },
+            {
+              "screen_id": "subscription",
+              "chosen_index": 2,
+              "chosen_label": "Manage membership",
+              "chosen_id": "manage",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "offer"
+            },
+            {
+              "screen_id": "offer",
+              "chosen_index": 1,
+              "chosen_label": "No thanks, I don't want to save money",
+              "chosen_id": "continue_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "confirm"
+            },
+            {
+              "screen_id": "confirm",
+              "chosen_index": 1,
+              "chosen_label": "I understand I'm giving up my perks, cancel anyway",
+              "chosen_id": "confirm_cancel",
+              "was_trap": false,
+              "valid": true,
+              "next_screen_id": "cancelled"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

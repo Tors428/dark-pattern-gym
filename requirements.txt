@@ -1,0 +1,5 @@
+# Core (needed for the chart). The offline keyword agent needs only this.
+matplotlib>=3.7
+
+# Only needed if you run `--agent gemini` (the free Gemini LLM agent / judge).
+google-genai>=1.0
