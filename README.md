@@ -67,7 +67,7 @@ So a high return means *cancelled quickly and without taking the bait*, not just
 | Avg steps | 4.00 | 5.00 |
 | Avg traps hit | 0.00 | 0.00 |
 
-The blind baseline isn't fooled — it never reads the persuasion. *Paste your Gemini-agent numbers here; that's the comparison that matters.*
+The blind keyword baseline isn't fooled — it never reads the persuasion, so it can't be tempted. The open question is whether an LLM agent, which *does* read the manipulative copy, is more susceptible. Evaluating a Gemini agent on the dark UI is the immediate next step; pilot runs confirm the pipeline runs end to end with a live model. A full multi-episode comparison is the planned follow-up.
 
 ## Repo layout
 
